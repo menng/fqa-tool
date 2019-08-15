@@ -33,7 +33,7 @@ mapper注入警告问题：`Settings -> Editor -> Inspections -> Spring -> Sprin
 
 显示空格：`Settings -> Editor -> General -> Appearance -> Show whitespaces`
 
-取消参数提示：`Settings -> Editor -> General -> Appearance -> Show parameter name hints`
+取消参数提示：`Settings -> Editor -> General -> Appearance -> Show parameter name hints`
 
 Tab设置为空格：`Settings -> Editor -> Code Style -> Java -> Tabs and Indents ` 
 
@@ -46,7 +46,7 @@ Tab设置为空格：`Settings -> Editor -> Code Style -> Java -> Tabs and Inden
 
 Lombok注解支持：`Build -> Compiler -> Annotation Processors Enable....`
 
-idea Terminal修改为git终端后不支持中文：[支持中文](https://www.cnblogs.com/feihualuoshi/p/7908356.html)
+Terminal修改为git终端后不支持中文：[支持中文](https://www.cnblogs.com/feihualuoshi/p/7908356.html)
 
 #### File and Code Templates
 
