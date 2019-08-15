@@ -4,11 +4,10 @@
 
 目前已收录：
 
-[IDEA](!https://www.jetbrains.com/idea/)
+[IDEA](https://www.jetbrains.com/idea/)
 
-[VSCode](!https://code.visualstudio.com/)
+[VSCode](https://code.visualstudio.com/)
 
 
 
 欢迎补充！
-
