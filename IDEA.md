@@ -106,23 +106,8 @@ Terminal修改为git终端后不支持中文：[支持中文](https://www.cnblog
 - https://www.cnblogs.com/snifferhu/p/7274548.html
 
 #### 自定义快捷键
-
 - Alt + D 全屏切换
 - ctrl + shift + o 刷新依赖
-
-
-
-### 插件
-- lombok 
-- Maven Helper 用来分析依赖树  
-- Free Mybatis plugin 方便从类跳转到xml
-- AceJump 页面内跳转  
-- Key promoter X 快捷键提示
-- Statistic 统计代码
-- Iedis redis可视化工具，收费[Guide](https://www.codesmagic.com/iedis/userguide/getting-started)
-- JProfiler 分析工具
-
-
 
 ### 新版Run Dashboard打开方法
 
@@ -137,7 +122,29 @@ Terminal修改为git终端后不支持中文：[支持中文](https://www.cnblog
 [参考](https://www.cnblogs.com/yangtianle/p/8818255.html)
 
 
-
 ### 控制台乱码问题
 
 如果网上的结果无法解决你的问题，找到你的idea配置文件(非安装目录的配置文件)， `.IntelliJIdea2019.2\config\idea64.exe.vmoptions` 在这里修改你的编码配置。 
+
+### 项目启动多实例
+Edit-configurations 勾选 Allow parallel run 同时在 Program arguments 指定端口 --server.port=8888 每启动一个实例就改一下端口。
+
+### 插件
+- Lombok
+- Spring Assistant
+- Smart tomcat
+- String Manipulation 
+- Rainbow Brackets
+- Jpa Support
+- SequenceDiagram 代码调用链路生成时序图
+- Codota 代码搜索插件
+- lombok 
+- Maven Helper 用来分析依赖树  
+- Free Mybatis plugin 方便从类跳转到xml
+- AceJump 页面内跳转  
+- Key promoter X 快捷键提示
+- Statistic 统计代码
+- Iedis redis可视化工具，收费[Guide](https://www.codesmagic.com/iedis/userguide/getting-started)
+- JProfiler 分析工具
+- gittoolbox 编辑区显示上次修改人信息
+
