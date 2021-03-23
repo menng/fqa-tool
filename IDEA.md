@@ -67,7 +67,6 @@ Terminal修改为git终端后不支持中文：[支持中文](https://www.cnblog
 ```
 
 
-
 ### 快捷键
 
 #### 常用
@@ -109,25 +108,6 @@ Terminal修改为git终端后不支持中文：[支持中文](https://www.cnblog
 - Alt + D 全屏切换
 - ctrl + shift + o 刷新依赖
 
-### 新版Run Dashboard打开方法
-
-打开`.idea/workspace.xml`文件，接下来找到`<component name="RunDashboard">`，加入如下：
-```
-<option name="configurationTypes">  
-      <set>  
-        <option value="SpringBootApplicationConfigurationType" />  
-      </set>  
- </option>  
-```
-[参考](https://www.cnblogs.com/yangtianle/p/8818255.html)
-
-
-### 控制台乱码问题
-
-如果网上的结果无法解决你的问题，找到你的idea配置文件(非安装目录的配置文件)， `.IntelliJIdea2019.2\config\idea64.exe.vmoptions` 在这里修改你的编码配置。 
-
-### 项目启动多实例
-Edit-configurations 勾选 Allow parallel run 同时在 Program arguments 指定端口 --server.port=8888 每启动一个实例就改一下端口。
 
 ### 插件
 - Lombok
@@ -148,3 +128,33 @@ Edit-configurations 勾选 Allow parallel run 同时在 Program arguments 指定
 - JProfiler 分析工具
 - gittoolbox 编辑区显示上次修改人信息
 
+### 常见问题
+
+- **新版Run Dashboard打开方法[废弃]**
+
+新版idea提供Services面板。
+
+打开`.idea/workspace.xml`文件，接下来找到`<component name="RunDashboard">`，加入如下：
+
+```
+<option name="configurationTypes">  
+      <set>  
+        <option value="SpringBootApplicationConfigurationType" />  
+      </set>  
+ </option>  
+
+```
+
+[参考](https://www.cnblogs.com/yangtianle/p/8818255.html)
+
+- **控制台乱码问题**
+
+如果网上的结果无法解决你的问题，找到你的idea配置文件(非安装目录的配置文件)， `.IntelliJIdea2019.2\config\idea64.exe.vmoptions` 在这里修改你的编码配置。 -Dfile.encoding=UTF-8
+
+- **项目启动多实例**
+
+Edit-configurations 勾选 Allow parallel run 同时在 Program arguments 指定端口 --server.port=8888 每启动一个实例就改一下端口。
+
+- **IDEA内存溢出问题**
+
+`Settings -> Build -> Compiler`  调整 `Shared build process heap size` ，按需增大即可。
